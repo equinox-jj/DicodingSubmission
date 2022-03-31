@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Game List</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+    <string name="title">Title</string>
+    <string name="release_date">Release Date :</string>
+    <string name="description">Description</string>
+    <string name="rating">Rating</string>
+    <string name="image_games">Image Games</string>
+    <string name="date">Date</string>
+    <string name="icon_star">Icon Star</string>
+    <string name="_5">/5</string>
+    <string name="joshua_jeremia_hotmail_com">joshua.jeremia@hotmail.com</string>
+    <string name="joshua_jeremia_pardede">Joshua Jeremia Pardede</string>
+
+    <!-- GAME NAME -->
+    <string name="warframe">Warframe</string>
+    <string name="titanfall_2">Titanfall 2</string>
+    <string name="the_witcher_3">The Witcher 3</string>
+    <string name="sekiro">Sekiro</string>
+    <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
+    <string name="minecraft">Minecraft</string>
+    <string name="monster_hunter_world">Monster Hunter World</string>
+    <string name="hitman_3">Hitman 3</string>
+    <string name="genshin_impact">Genshin Impact</string>
+    <string name="prey">Prey</string>
+
+</resources>

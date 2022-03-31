@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+
+        <KeyFrameSet>
+
+        </KeyFrameSet>
+
+        <OnSwipe motion:touchAnchorSide="bottom" />
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+        <Constraint
+            android:id="@+id/ivSmallDetail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="120dp"
+            android:alpha="1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="@+id/ivLargeDetail"
+            motion:layout_constraintTop_toBottomOf="@+id/alDetailAct" />
+
+        <Constraint
+            android:id="@+id/ivLargeDetail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:alpha="1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/alDetailAct" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:id="@+id/ivLargeDetail"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:alpha="0.1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/alDetailAct" />
+
+        <Constraint
+            android:id="@+id/ivSmallDetail"
+            android:layout_width="100dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="1dp"
+            android:alpha="0.1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="@+id/ivLargeDetail"
+            motion:layout_constraintTop_toBottomOf="@+id/alDetailAct" />
+
+    </ConstraintSet>
+
+</MotionScene>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.20205128205128206" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/drawable/image_view_shape.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/activity_detail.xml" value="0.17777777777777778" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/activity_splash_screen.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/item_detail_activity.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/item_list_home_activity.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/layout/placeholder_list.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/menu/menu_about.xml" value="0.1890625" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/menu/menu_back_detail.xml" value="0.1890625" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20205128205128206" />
+        <entry key="..\:/AndroidProject/DicodingSubmission/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20205128205128206" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
